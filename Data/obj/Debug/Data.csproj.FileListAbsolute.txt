@@ -1,0 +1,14 @@
+F:\Github\MstscManage\Data\bin\Debug\Data.dll
+F:\Github\MstscManage\Data\bin\Debug\Data.pdb
+F:\Github\MstscManage\Data\bin\Debug\Common.dll
+F:\Github\MstscManage\Data\bin\Debug\Model.dll
+F:\Github\MstscManage\Data\bin\Debug\Newtonsoft.Json.dll
+F:\Github\MstscManage\Data\bin\Debug\Common.pdb
+F:\Github\MstscManage\Data\bin\Debug\Model.pdb
+F:\Github\MstscManage\Data\bin\Debug\Newtonsoft.Json.pdb
+F:\Github\MstscManage\Data\bin\Debug\Newtonsoft.Json.xml
+F:\Github\MstscManage\Data\obj\Debug\Data.csprojAssemblyReference.cache
+F:\Github\MstscManage\Data\obj\Debug\Data.csproj.CoreCompileInputs.cache
+F:\Github\MstscManage\Data\obj\Debug\Data.csproj.CopyComplete
+F:\Github\MstscManage\Data\obj\Debug\Data.dll
+F:\Github\MstscManage\Data\obj\Debug\Data.pdb

@@ -1,0 +1,6 @@
+F:\Github\MstscManage\Model\bin\Debug\Model.dll
+F:\Github\MstscManage\Model\bin\Debug\Model.pdb
+F:\Github\MstscManage\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+F:\Github\MstscManage\Model\obj\Debug\Model.dll
+F:\Github\MstscManage\Model\obj\Debug\Model.pdb
+F:\Github\MstscManage\Model\obj\Debug\Model.csprojAssemblyReference.cache
