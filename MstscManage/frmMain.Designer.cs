@@ -63,7 +63,7 @@
             this.toolStripButton1});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(800, 25);
+            this.toolStrip1.Size = new System.Drawing.Size(723, 25);
             this.toolStrip1.TabIndex = 0;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -163,23 +163,28 @@
             // splitContainer1.Panel1
             // 
             this.splitContainer1.Panel1.Controls.Add(this.dgvMstsc);
-            this.splitContainer1.Size = new System.Drawing.Size(800, 425);
-            this.splitContainer1.SplitterDistance = 354;
+            // 
+            // splitContainer1.Panel2
+            // 
+            this.splitContainer1.Panel2.BackColor = System.Drawing.Color.White;
+            this.splitContainer1.Size = new System.Drawing.Size(723, 377);
+            this.splitContainer1.SplitterDistance = 348;
             this.splitContainer1.TabIndex = 3;
             // 
             // dgvMstsc
             // 
             this.dgvMstsc.AllowUserToAddRows = false;
             this.dgvMstsc.AllowUserToDeleteRows = false;
+            this.dgvMstsc.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.DisplayedCells;
             this.dgvMstsc.BackgroundColor = System.Drawing.Color.White;
             this.dgvMstsc.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvMstsc.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dgvMstsc.Location = new System.Drawing.Point(0, 0);
+            this.dgvMstsc.MultiSelect = false;
             this.dgvMstsc.Name = "dgvMstsc";
             this.dgvMstsc.ReadOnly = true;
             this.dgvMstsc.RowTemplate.Height = 23;
-            this.dgvMstsc.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvMstsc.Size = new System.Drawing.Size(800, 354);
+            this.dgvMstsc.Size = new System.Drawing.Size(723, 348);
             this.dgvMstsc.TabIndex = 0;
             this.dgvMstsc.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvMstsc_CellContentClick);
             this.dgvMstsc.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvMstsc_CellDoubleClick);
@@ -189,9 +194,11 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(723, 402);
             this.Controls.Add(this.splitContainer1);
             this.Controls.Add(this.toolStrip1);
+            this.ImeMode = System.Windows.Forms.ImeMode.KatakanaHalf;
+            this.MaximizeBox = false;
             this.Name = "frmMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "远程桌面管理工具";

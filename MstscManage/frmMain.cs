@@ -40,19 +40,19 @@ namespace MstscManage
         {
             dgvMstsc.Columns.AddRange(new DataGridViewColumn[] {
                 new DataGridViewTextBoxColumn(){ Name="Id",DataPropertyName="Id",HeaderText="Id",Visible=false },
-                new DataGridViewTextBoxColumn(){ Name="IPAddress",DataPropertyName="IPAddress",HeaderText="IP" },
-                new DataGridViewTextBoxColumn(){ Name="Name",DataPropertyName="Name",HeaderText="名称" },
-                new DataGridViewTextBoxColumn(){ Name="UserName",DataPropertyName="UserName",HeaderText="账号" },
-                new DataGridViewTextBoxColumn(){ Name="Password",DataPropertyName="Password",HeaderText="密码",Visible=false },
-                new DataGridViewTextBoxColumn(){ Name="NetType",DataPropertyName="NetType",HeaderText="类型" },
-                new DataGridViewTextBoxColumn(){ Name="RDPFileName",DataPropertyName="RDPFileName",HeaderText="RDP文件" },
+                new DataGridViewTextBoxColumn(){ Name="Name",DataPropertyName="Name",HeaderText="名称",Width=200 },
+                new DataGridViewTextBoxColumn(){ Name="IPAddress",DataPropertyName="IPAddress",HeaderText="IP",Width=120 },
+                new DataGridViewTextBoxColumn(){ Name="UserName",DataPropertyName="UserName",HeaderText="账号"},
+                new DataGridViewTextBoxColumn(){ Name="Password",DataPropertyName="Password",HeaderText="密码"},
+                new DataGridViewTextBoxColumn(){ Name="NetType",DataPropertyName="NetType",HeaderText="类型",Width=55 },
+                new DataGridViewTextBoxColumn(){ Name="RDPFileName",DataPropertyName="RDPFileName",HeaderText="RDP文件",Visible=false },
                 new DataGridViewTextBoxColumn(){ Name="CreateTime",DataPropertyName="CreateTime",HeaderText="创建时间" },
                 //new DataGridViewButtonColumn(){ Name="btnConnection",HeaderText="连接",DefaultCellStyle=new DataGridViewCellStyle(){ NullValue="连接"}},
-                new DataGridViewButtonColumn(){ Name="btnUpdate",HeaderText="修改",DefaultCellStyle=new DataGridViewCellStyle(){ NullValue="修改"}},
-                new DataGridViewButtonColumn(){ Name="btnDel",HeaderText="删除",DefaultCellStyle=new DataGridViewCellStyle(){ NullValue="删除"}},
+                new DataGridViewButtonColumn(){ Name="btnUpdate",HeaderText="修改",DefaultCellStyle=new DataGridViewCellStyle(){ NullValue="修改"},Width=60},
+                new DataGridViewButtonColumn(){ Name="btnDel",HeaderText="删除",DefaultCellStyle=new DataGridViewCellStyle(){ NullValue="删除"},Width=60},
             });
             dgvMstsc.AutoGenerateColumns = false;
-            dgvMstsc.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            //dgvMstsc.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
         }
         private void dgvMstsc_RowPostPaint(object sender, DataGridViewRowPostPaintEventArgs e)
         {
