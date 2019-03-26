@@ -63,7 +63,7 @@
             this.toolStripButton1});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(723, 25);
+            this.toolStrip1.Size = new System.Drawing.Size(782, 25);
             this.toolStrip1.TabIndex = 0;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -167,8 +167,8 @@
             // splitContainer1.Panel2
             // 
             this.splitContainer1.Panel2.BackColor = System.Drawing.Color.White;
-            this.splitContainer1.Size = new System.Drawing.Size(723, 377);
-            this.splitContainer1.SplitterDistance = 348;
+            this.splitContainer1.Size = new System.Drawing.Size(782, 398);
+            this.splitContainer1.SplitterDistance = 367;
             this.splitContainer1.TabIndex = 3;
             // 
             // dgvMstsc
@@ -184,7 +184,7 @@
             this.dgvMstsc.Name = "dgvMstsc";
             this.dgvMstsc.ReadOnly = true;
             this.dgvMstsc.RowTemplate.Height = 23;
-            this.dgvMstsc.Size = new System.Drawing.Size(723, 348);
+            this.dgvMstsc.Size = new System.Drawing.Size(782, 367);
             this.dgvMstsc.TabIndex = 0;
             this.dgvMstsc.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvMstsc_CellContentClick);
             this.dgvMstsc.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvMstsc_CellDoubleClick);
@@ -194,7 +194,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(723, 402);
+            this.ClientSize = new System.Drawing.Size(782, 423);
             this.Controls.Add(this.splitContainer1);
             this.Controls.Add(this.toolStrip1);
             this.ImeMode = System.Windows.Forms.ImeMode.KatakanaHalf;
